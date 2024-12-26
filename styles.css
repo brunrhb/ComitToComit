@@ -29,14 +29,14 @@
 .numbered-cell {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
 }
 
 .cell-number {
-    font-size: 2em;
+    font-size: 4em;
     font-weight: bold;
-    color: #2196F3;
+    color: #000000;
     margin-bottom: 0.5em;
 }
 
@@ -66,8 +66,8 @@
     color: inherit;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     transition: background-color 0.3s;
 }
 
