@@ -15,22 +15,26 @@ p {
 }
 
 h1 {
-  font-weight: 14rem;
-  text-transform: uppercase;
-  text-decoration: underline;
+  font-size: 6rem;
+  font-weight: bold;
+  text-transform: none;
+  text-decoration: none;
+  color: #333;
 }
 
 div {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 }
 
 .container {
-  max-width: 60vw;
+  max-width: 110vw;
   margin: 50px auto;
   padding: 20px;
-  background: #fff;
+  margin-bottom: -33vh;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0);
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
 }

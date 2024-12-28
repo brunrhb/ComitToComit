@@ -5,7 +5,7 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
   }
   function draw() {
-    background(50);
+    background(0, 0, 10, 0);
     noFill();
     stroke(255);
     strokeWeight(8);
