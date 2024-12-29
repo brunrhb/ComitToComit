@@ -5,9 +5,9 @@
 
 
 .container {
-  max-width: 50vw;
+  max-width: 20.2vw;
   margin: 50px auto;
-  padding: 20px;
+  padding: 12px;
   margin-bottom: -33vh;
   z-index: 10;
 }
@@ -19,12 +19,12 @@ div {
 }
 
 p {
+  font-size: 03.2rem;
   font-family: 'Roboto', sans-serif;
-  font-size: 06rem;
-  font-weight: bold;
-  letter-spacing: 0.1em;
+  font-weight: lighter;
+  letter-spacing: 0.8em;
   word-spacing: 0.1rem;
-  line-height: 3rem;
+  line-height: 2rem;
   text-transform: none;
   text-decoration: none;
   color: #333;
