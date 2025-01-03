@@ -30,3 +30,28 @@ div {
   text-decoration: none;
   color: #333;
 }
+
+p:first-letter {
+  font-size: 2em;
+  font-weight: bold;
+}
+p:first-line {
+  font-style: italic;
+}
+::selection {
+  background: yellow;
+  color: black;
+}
+
+p:hover {
+  text-decoration: underline;
+  color: #ff6347;
+}
+
+p:nth-child(odd) {
+  background: #480303;
+}
+p:nth-child(even) {
+  background: #304dde;
+}
+
