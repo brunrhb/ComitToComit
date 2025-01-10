@@ -1,16 +1,17 @@
-let canvas;
+let textElement;
 
 function setup() {
-    canvas = createCanvas(500, 500);
-    canvas.parent("myCanvas"); // Place le canvas dans un conteneur
+    let canvas = createCanvas(500, 500);
+    canvas.parent("myCanvas");
+
+    // Créer un élément HTML
+    textElement = createDiv("Follow me!");
+    textElement.addClass("p"); // Appliquer la classe CSS
 }
 
 function draw() {
     background(220);
-    fill(0);
-    ellipse(mouseX, mouseY, 50, 50);
 
-    // Mettre à jour le texte HTML selon la position de la souris
-    let htmlContent = document.querySelector("#htmlContent p");
-    htmlContent.innerText = `Mouse: (${mouseX}, ${mouseY})`;
+    // Mettre à jour la position du texte HTML
+    textElement.position(mouseX + 10, mouseY + 10);
 }
