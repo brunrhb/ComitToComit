@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.ttf') format('truetype');
+}
+
+.container {
+  max-width: 20vh;
+  margin: 50px auto;
+  padding: 0px;
+  margin-bottom: 0vh;
+  z-index: 10;
+}
+
+div {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+p {
+  font-size: 4.3vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.2vh;
+  word-spacing: 1vh;
+  line-height: 5vh;
+  text-transform: none;
+  text-decoration: none;
+  color: #333;
+}
+
+

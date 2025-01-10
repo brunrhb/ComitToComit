@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'InterVariable';
+  src: url('Inter-VariableFont.ttf') format('truetype');
+}
+
+
+
+
+div {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.container {
+  max-width: 20vh;
+  margin: 50px auto;
+  background: none;
+}
+
+.p {
+  font-family: 'InterVariable', sans-serif;
+  font-variation-settings: "wght" 120, "wdth" 480;
+  font-weight: lighter;
+  font-size: 4.3vh;
+  letter-spacing: 0.2vh;
+  word-spacing: 1vh;
+  line-height: 5vh;
+  text-transform: none;
+  text-decoration: none;
+  color: #333;
+}
+
+p:first-letter {
+  font-size: 2em;
+  font-weight: bold;
+}
+p:first-line {
+  font-style: italic;
+}
+::selection {
+  background: yellow;
+  color: black;
+}
+
+p:hover {
+  text-decoration: underline;
+  color: #ff6347;
+}
+
+p:nth-child(odd) {
+  background: #480303;
+}
+p:nth-child(even) {
+  background: #304dde;
+}
+
