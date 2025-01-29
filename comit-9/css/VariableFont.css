@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter.woff2') format('woff2');
+    font-weight: 100 900; /* Gamme complète */
+    font-stretch: 75% 125%; /* Largeur ajustable */
+    font-style: normal italic; /* Inclinaison variable */
+  }
+  
+  .variable-text {
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: 
+      "wght" 600,   /* Poids */
+      "wdth" 100,   /* Largeur */
+      "ital" 0,     /* Italique */
+      "slnt" -10,   /* Inclinaison */
+      "opsz" 12;    /* Optical Size */
+  }
+
+  @keyframes weightShift {
+    0% { font-variation-settings: "wght" 200; }
+    100% { font-variation-settings: "wght" 800; }
+  }
+  
+  .animated-text {
+    font-family: 'Roboto Flex', sans-serif;
+    font-variation-settings: "wght" 300;
+    animation: weightShift 2s infinite alternate ease-in-out;
+  }

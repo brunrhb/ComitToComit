@@ -9,7 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
         " ",// 3
         " ",// 4
         " ",// 5
-        " "// 6
+        " ",// 6
+        " ",// 7
+        " ",// 8
+        " adobe typo panel alike #1",// 9
     ];
     
     let count = 1;

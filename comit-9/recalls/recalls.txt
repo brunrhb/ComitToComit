@@ -1,0 +1,50 @@
+| **Photoshop**                                  | **CSS Equivalent**                                                        |
+| ---------------------------------------------- | ------------------------------------------------------------------------- |
+
+
+| **Font Weight** (Poids)                        | `font-weight: 100 900;` ou `font-variation-settings: "wght" 600;`         |
+| **Font Width / Stretch**                       | `font-stretch: 75% 125%;` ou `font-variation-settings: "wdth" 100;`       |
+| **Italic (Style & Slant)**                     | `font-style: italic;` ou `font-variation-settings: "ital" 1, "slnt" -10;` |
+| **Optical Size** (Adapte le rendu à la taille) | `font-variation-settings: "opsz" 16;`                                     |
+| **Tracking (Espacement global)**               | `letter-spacing: 0.05em;`                                                 |
+| **Kerning (Espacement spécifique)**            | `font-kerning: normal;`                                                   |
+| **Leading (Interligne)**                       | `line-height: 1.4;`                                                       |
+| **Baseline Shift**                             | `vertical-align: 5px;`                                                    |
+
+
+| ------------------------------------------------- | ----------------------------- |
+| **Alignement (Gauche, Centre, Droite, Justifié)** | `text-align`                  |
+| **Indentation du 1er mot**                        | `text-indent`                 |
+| **Marge avant/après paragraphe**                  | `margin-top`, `margin-bottom` |
+| **Justification forcée**                          | `text-align: justify;`        |
+| **Césure automatique**                            | `hyphens: auto;`              |
+
+
+
+
+| **Photoshop**                       | **Équivalent JavaScript (via style)**                                         |
+| ----------------------------------- | ----------------------------------------------------------------------------- |
+| **Font Family**                     | `element.style.fontFamily = "Arial, sans-serif";`                             |
+| **Font Style (Bold, Italic)**       | `element.style.fontWeight = "bold";` et `element.style.fontStyle = "italic";` |
+| **Font Size**                       | `element.style.fontSize = "32px";`                                            |
+| **Leading (Interligne)**            | `element.style.lineHeight = "1.2";`                                           |
+| **Tracking (Espacement global)**    | `element.style.letterSpacing = "2px";`                                        |
+| **Kerning (Espacement spécifique)** | `element.style.fontKerning = "normal";`                                       |
+| **Baseline Shift**                  | `element.style.verticalAlign = "5px";`                                        |
+| **All Caps / Small Caps**           | `element.style.textTransform = "uppercase";` ou `"small-caps";`               |
+| **Superscript / Subscript**         | `element.style.verticalAlign = "super";` ou `"sub";`                          |
+| **Stroke (Contour du texte)**       | `element.style.textShadow = "2px 2px 0 black";`                               |
+| **Horizontal Scale**                | `element.style.transform = "scaleX(1.5)";`                                    |
+| **Vertical Scale**                  | `element.style.transform = "scaleY(0.8)";`                                    |
+
+
+| **Photoshop**                                  | **Variable CSS **                                                        |
+| ---------------------------------------------- | ------------------------------------------------------------------------- |
+| **Font Weight** (Poids)                        | `font-weight: 100 900;` ou `font-variation-settings: "wght" 600;`         |
+| **Font Width / Stretch**                       | `font-stretch: 75% 125%;` ou `font-variation-settings: "wdth" 100;`       |
+| **Italic (Style & Slant)**                     | `font-style: italic;` ou `font-variation-settings: "ital" 1, "slnt" -10;` |
+| **Optical Size** (Adapte le rendu à la taille) | `font-variation-settings: "opsz" 16;`                                     |
+| **Tracking (Espacement global)**               | `letter-spacing: 0.05em;`                                                 |
+| **Kerning (Espacement spécifique)**            | `font-kerning: normal;`                                                   |
+| **Leading (Interligne)**                       | `line-height: 1.4;`                                                       |
+| **Baseline Shift**                             | `vertical-align: 5px;`                                                    |
