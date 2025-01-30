@@ -4,7 +4,7 @@
 }
 
 
-.p {
+p {
   font-family: 'InterVariable', sans-serif;
   font-variation-settings: "wght" 120, "wdth" 480;
   font-weight: lighter;
@@ -15,6 +15,12 @@
   text-transform: none;
   text-decoration: none;
   color: #333;
+}
+
+
+
+#myCanvas {
+    display: block;
 }
 
 

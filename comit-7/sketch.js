@@ -1,7 +1,7 @@
 let textElement;
 
 function setup() {
-    let canvas = createCanvas(windowHeight, windowWidth);
+    let canvas = createCanvas(windowWidth, windowHeight);
     canvas.parent("myCanvas");
 
     // Créer un élément HTML

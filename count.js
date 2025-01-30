@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "CSS explore #1",// 3
         "CSS explore #2 ",// 4
         "CSS on native js canvas text.<br> ghost canvas ? ",// 5
-        " ",// 6
-        " ",// 7
-        " ",// 8
+        "CSS explore #3 <br> centralise ",// 6
+        "CSS style text X native js Canvas ",// 7
+        "CSS pseudo class X js <br> nativ canvas superflu?  ",// 8
         " typo css Adobe panel simulaton #1",// 9
         "9<br>+import from .txt #1",// 10
     ];

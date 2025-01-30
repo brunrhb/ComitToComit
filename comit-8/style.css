@@ -3,13 +3,10 @@
   src: url('Inter-VariableFont.ttf') format('truetype');
 }
 
-
-
-
 div {
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .container {
@@ -21,6 +18,9 @@ div {
 .p {
   font-family: 'InterVariable', sans-serif;
   font-variation-settings: "wght" 120, "wdth" 480;
+p {
+  font-family: 'InterVariable', sans-serif;
+  font-variation-settings: "wght" 120, "wdth" 480;
   font-weight: lighter;
   font-size: 4.3vh;
   letter-spacing: 0.2vh;
@@ -30,9 +30,6 @@ div {
   text-decoration: none;
   color: #333;
 }
-
-.p:first-letter {
-  font-size: 2em;
   font-weight: bold;
 }
 
