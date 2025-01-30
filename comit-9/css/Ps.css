@@ -5,6 +5,10 @@
   font-family: Arial, sans-serif;
 }
 
+.point-text-2 {
+  display: inline-block;
+}
+
 
 .paragraph-text-1 {
   width: 300px;
