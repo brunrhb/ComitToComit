@@ -4,15 +4,16 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Define custom text for each cell
     const cellTexts = [
-        "lorem ipsum",// 1
-        " ",// 2
-        " ",// 3
-        " ",// 4
-        " ",// 5
+        "Oscillation. Allison Parish. Sylabus trick <br> sin + frame count",// 1
+        "Oscillation. Allison Parish. Sylabus trick #2 ",// 2
+        "CSS explore #1",// 3
+        "CSS explore #2 ",// 4
+        "CSS on native js canvas text.<br> ghost canvas ? ",// 5
         " ",// 6
         " ",// 7
         " ",// 8
-        " adobe typo panel alike #1",// 9
+        " typo css Adobe panel simulaton #1",// 9
+        "9<br>+import from .txt #1",// 10
     ];
     
     let count = 1;

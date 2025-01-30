@@ -13,6 +13,6 @@ function setup() {
       200+sin(xpos)*100,
       200+sin(ypos)*100,
       45, 45);
-    xpos += 0.05;
+    xpos += 0.1;
     ypos += 0.04;
   }
