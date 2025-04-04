@@ -1,0 +1,95 @@
+/* typo template */
+
+
+.variable-style0 {
+    /* https://fonts.google.com/specimen/Recursive/tester */
+    font-family: "Recursive", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0, /*-15 - 0 */
+      "CASL"  0, /*0-1  */
+      "CRSV" 0, /*0-1  */
+      "MONO" 0;/*0-1  */
+      font-size: 3rem;
+}
+
+.native-style1 {
+    font-size: 3rem;
+    line-height: 2rem;
+    letter-spacing: 1rem;
+    word-spacing: 1rem;
+   /* _ */
+    text-transform: none;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 10px 10px 50px black;
+}
+
+.native-style0 {
+    font-size: 12rem;
+    line-height: 1.6;
+    letter-spacing: 0.2vh;
+    word-spacing: 1vh;
+   /* _ */
+    text-transform: none;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0px 0px 0 black;
+}
+
+.position-style0 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 20vh;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    z-index: 0;
+    position: relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+}
+
+.transform-style0 {
+    transform: scale(1, 1) translateY(0) translateX(0); /*  largeur,  hauteur */
+    opacity:1;
+    pointer-events: none;
+    mix-blend-mode: normal;
+    filter: none;
+    transition: all 0s infinte ease-in-out;
+    animation: none;
+}
+
+
+#text-layer {
+    border: 2px solid red;
+    min-height: 200px;
+    min-width: 200px;
+  }
+  
+  .variable-style0 {
+    background-color: yellow; /* juste pour le test */
+  }
+  
+
+/* css+
+:first-line
+::selection
+:hover 
+:nth-child(odd/even)
+#id
+@keyframes
+
+animation
+transform
+scale
+translateY
+ease-in-out
+from, to
+infinite
+
