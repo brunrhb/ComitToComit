@@ -1,22 +1,17 @@
-// Fonction asynchrone pour charger le fichier texte
+// Importe le texte brut comme une string JS depuis text.js
+import texte from './text.js';
 
-async function loadText(textPath = 'text.txt') {
+// Fonction pour découper le texte en unités (mots)
+function loadText() {
   try {
-    const response = await fetch(textPath);
-    if (!response.ok) {
-      throw new Error(`Erreur HTTP ${response.status} pour ${textPath}`);
-    }
-    const data = await response.text();
-    const cleaned = data.replace(/\n/g, ' ');
-    const mots = cleaned.match(/\b[\wÀ-ÿ'-]+\b/g);
-    console.log("🔍 Texte chargé avec succès:", mots);
+    const cleaned = texte.replace(/\n/g, ' ');
+    const mots = cleaned.match(/\b[\wÂ-ÿ—’]+\b/g); // mots avec accents & tirets longs
+    console.log("✅ Texte chargé avec succès :", mots);
     return mots || [];
   } catch (error) {
-    console.error("🚨 Erreur de chargement du texte:", error);
+    console.error("❌ Erreur de traitement du texte :", error);
     return [];
   }
 }
 
 export { loadText };
-
-  

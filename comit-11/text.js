@@ -1,3 +1,5 @@
+
+export default `
 Ah ! non ! c’est un peu court, jeune homme !
 On pouvait dire… Oh ! Dieu ! … bien des choses en somme…
 En variant le ton, – par exemple, tenez :
@@ -52,3 +54,4 @@ Que vous n’en eussiez pas articulé le quart
 De la moitié du commencement d’une, car
 Je me les sers moi-même, avec assez de verve,
 Mais je ne permets pas qu’un autre me les serve.
+`;
