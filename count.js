@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "CSS pseudo class X js <br> nativ canvas superflu?  ",// 8
         " typo css Adobe panel simulaton #1",// 9
         "9<br>+import from .txt #1",// 10
+        "template modulaire. (sequence : DONNER A LIRE) + (style : TYPO EFFECT) ",// 11
     ];
     
     let count = 1;
